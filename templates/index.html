@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <title>Nintendo Switch</title>
+    <link rel="icon" href="{{ url_for('static', filename = 'images/Nintendo.png')}}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'css/fontawesome-all.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename = 'css/styles.css') }}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;700&family=Prompt:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/Nintendo.svg" alt="alternative" ></a>  -->
+            <h1 class="navbar-brand logo-image">Nintendo</h1>
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#details">{{database[0].Name}}<span
+                                class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Project link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Group members</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h1 class="h1-large">สวัสดี พวกเรา Nintendo</h1>
+                        <p class="p-large">เรามีความยินดีที่จะประกาศเปิดตัว "เว็บไซต์อย่างเป็นทางการของ Nintendo"
+                            สำหรับผู้อยู่อาศัยในประเทศไทย
+                            เราพร้อมที่จะให้ข้อมูลต่างๆ เกี่ยวกับ Nintendo ไม่ว่าจะเป็นเครื่อง Nintendo Switch,
+                            ซอฟต์แวร์เกม รวมถึงตัวละครจากซีรีส์เกม Super Mario, The Legend of Zelda และอื่นๆ อีกมากมาย
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="image-container">
+                        <img class="img-fluid" src="{{ url_for('static' ,filename = 'images/logomain.png') }}"
+                            alt="alternative">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="statement" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="h11">What is Nintendo Switch?</div>
+                        <div class="h31">เครื่องเกมที่สนุกได้ ทุกที่ ทุกเวลา กับทุกคน</div><p></p>
+                        <p class="p-large">Nintendo Switch นั้น นอกจากซีรีส์เกมอย่าง Super Mario หรือ The Legend of
+                            Zelda ยังสามารถเล่นเกมได้อีกหลากหลายประเภท เช่น เกมออกกำลังกายในขณะผจญภัย
+                            เกมที่ช่วยให้ได้สัมผัสประสบการณ์การเขียนโปรแกรมเกม ฯลฯ จะเล่นเกมกับทุกคนบนทีวีจอใหญ่
+                            หรือพกพาไปเล่นนอกบ้านก็ได้</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="features" class="basic-4">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="text-container text-container">
+                    <div class="h31">Best selling video games</div><br>
+                </div>
+            </div>
+            <div class="row">
+
+                <table class="container">
+                    <tr>
+                        <td class="col-sm-3"><img class="center_img"
+                                src="{{url_for('static' ,filename = 'images/pngegg (5).png') }}" alt="Blog Name"
+                                width="50px" height="80px"></td>
+                        <td class="col-sm-3"><img class="center_img"
+                                src="{{url_for('static' ,filename = 'images/pngegg (6).png') }}" alt="Blog Name"
+                                width="50px" height="80px"></td>
+                        <td class="col-sm-3"><img class="center_img"
+                                src="{{url_for('static' ,filename = 'images/pngegg (7).png') }}" alt="Blog Name"
+                                width="50px" height="80px"></td>
+
+                    </tr>
+                </table>
+                <div class="container7">
+                    <div class="card7" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <div class="img-box7">
+                            <img src="{{database[0].Image_Path}}" class="mg-resize">
+                        </div>
+                        <div class="content7">
+                            <div class="h41">{{database[0].Name}}<br><span>{{database[0].Update}}</span></div>
+                            <p class="p-large">{{database[0].Developer}}</p>
+                            <p class="p-large">Update :{{database[0].Update}}</p>
+                            <p class="p-large">จำนวน : {{database[0].Copies_sold}} ชิ้น</p>
+                        </div>
+                    </div>
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+
+                                <div class="projcard-container">
+                                    <div class="projcard projcard-blue">
+                                        <div class="projcard-innerbox">
+                                          <img class="projcard-img" src="{{database[0].Image_Path}}" />
+                                          <div class="projcard-textbox">
+                                            <div class="projcard-title">{{database[0].Name}}</div>
+                                            <div class="projcard-subtitle">{{database[0].Name}}</div>
+                                            <small>Developer : {{database[0].Developer}}</small><br>
+                                            <small>Release : {{database[0].Release}}</small><br>
+                                            <small>Website : {{database[0].Website}}</small><br>
+                                            <small>Genre : {{database[0].Genre}}</small><br>
+                                             <p class="card-text"><small class="text-muted">Update :
+                                                              {{database[0].Update}}</small>
+                                                      </p>
+                                            <div class="projcard-bar"></div>
+                                            <div class="projcard-description">{{database[0].Content}}</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card7" data-toggle="modal" data-target=".bd-example-modal-lg1">
+                        <div class="img-box7">
+                            <img src="{{database[1].Image_Path}}" class="mg-resize" height="440px">
+                        </div>
+                        <div class="content7">
+                            <div class="h41">{{database[1].Name}}<br><span>{{database[1].Update}}</span></div>
+                            <p class="p-large">{{database[1].Developer}}</p>
+                            <p class="p-large">Update :{{database[1].Update}}</p>
+                            <p class="p-large">จำนวน : {{database[1].Copies_sold}} ชิ้น</p>
+                        </div>
+                    </div>
+
+                    <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="projcard-container">
+                                <div class="projcard projcard-blue">
+                                    <div class="projcard-innerbox">
+                                      <img class="projcard-img" src="{{database[1].Image_Path}}" />
+                                      <div class="projcard-textbox">
+                                        <div class="projcard-title">{{database[1].Name}}</div>
+                                        <div class="projcard-subtitle">{{database[1].Name}}</div>
+                                        <small>Developer : {{database[1].Developer}}</small><br>
+                                        <small>Release : {{database[1].Release}}</small><br>
+                                        <small>Website : {{database[1].Website}}</small><br>
+                                        <small>Genre : {{database[1].Genre}}</small><br>
+                                         <p class="card-text"><small class="text-muted">Update :
+                                                          {{database[1].Update}}</small>
+                                                  </p>
+                                        <div class="projcard-bar"></div>
+                                        <div class="projcard-description">{{database[1].Content}}</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card7" data-toggle="modal" data-target=".bd-example-modal-lg2">
+                        <div class="img-box7">
+                            <img src="{{database[2].Image_Path}}" class="mg-resize">
+                        </div>
+                        <div class="content7">
+                            <div class="h41">{{database[2].Name}}<br><span>{{database[2].Update}}</span></div>
+                            <p class="p-large">{{database[2].Developer}}</p>
+                            <p class="p-large">Update :{{database[2].Update}}</p>
+                            <p class="p-large">จำนวน : {{database[2].Copies_sold}} ชิ้น</p>
+                        </div>
+                    </div>
+
+                    <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+
+                            <div class="projcard-container">
+                                <div class="projcard projcard-blue">
+                                    <div class="projcard-innerbox">
+                                      <img class="projcard-img" src="{{database[2].Image_Path}}" />
+                                      <div class="projcard-textbox">
+                                        <div class="projcard-title">{{database[2].Name}}</div>
+                                        <div class="projcard-subtitle">{{database[2].Name}}</div>
+                                        <small>Developer : {{database[2].Developer}}</small><br>
+                                        <small>Release : {{database[2].Release}}</small><br>
+                                        <small>Website : {{database[2].Website}}</small><br>
+                                        <small>Genre : {{database[2].Genre}}</small><br>
+                                         <p class="card-text"><small class="text-muted">Update :
+                                                          {{database[2].Update}}</small>
+                                                  </p>
+                                        <div class="projcard-bar"></div>
+                                        <div class="projcard-description">{{database[2].Content}}</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="features" class="basic-5">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <div class="h31">ซอฟต์แวร์เกม Nintendo Switch</div><br>
+                </div>
+            </div>
+            <div class="row">
+                {% for item in database %}
+                <div class="col-lg-3 shadow-sm mb-3 span1card">
+                    <div class="card-top">
+                        <img src="{{item.Image_Path}}" alt="Blog Name" height="150px" height="150px" data-toggle="modal"
+                            data-target="#myOutput{{ item.id }}">
+                    </div>
+                    <div class="card-info">
+                        <div class="h61">{{item.Name}}</div>
+                        <span class="date">{{item.Update}}</span>
+                    </div>
+                </div>
+                {% endfor %}
+
+
+                {% for history in database %}
+                <div class="modal fade bd-example-modal-lg2" id="myOutput{{ history.id }}" tabindex="-1" role="dialog"
+                    aria-labelledby="myLargeModalLabel" aria-hidden="true" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="projcard-container">
+
+                            <div class="projcard projcard-blue">
+                              <div class="projcard-innerbox">
+                                <img class="projcard-img" src="{{history.Image_Path}}" />
+                                <div class="projcard-textbox">
+                                  <div class="projcard-title">{{history.Name}}</div>
+                                  <div class="projcard-subtitle">{{history.Name}}</div>
+                                  <small>Developer : {{history.Developer}}</small><br>
+                                  <small>Release : {{history.Release}}</small><br>
+                                  <small>Website : {{history.Website}}</small><br>
+                                  <small>Genre : {{history.Genre}}</small><br>
+                                   <p class="card-text"><small class="text-muted">Update :
+                                                    {{history.Update}}</small>
+                                            </p>
+                                  <div class="projcard-bar"></div>
+                                  <div class="projcard-description">{{history.Content}}</div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">group members</h2>
+                    <p class="p-heading">Project link<a class="blue no-line" href="https://github.com/Mikky-sout/TOConly"> Github</a></p>
+                    <p class="p-heading"></p>
+                </div>
+            </div>
+            <div class="row">
+
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="{{url_for('static' ,filename = 'images/1.jpg') }}" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย กฤตนัย สุยานะ</span>
+                                <span class="profession">63015007</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="{{url_for('static' ,filename = 'images/2.jpg') }}" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย จริศิลป์ เอก</span>
+                                <span class="profession">63015025</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="{{url_for('static' ,filename = 'images/3.jpg') }}" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย จริพัฒน์ ชโลธร</span>
+                                <span class="profession">63015024</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="{{url_for('static' ,filename = 'images/4.jpg') }}" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย นวัต การสำเริง</span>
+                                <span class="profession">63015097</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="{{url_for('static' ,filename = 'images/5.jpg') }}" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย ชัยนรินทร์ โพธิ์ไทรย์</span>
+                                <span class="profession">63015036</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="{{url_for('static' ,filename = 'images/6.jpg') }}" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย ปริทัศน์ วิลัยขำ</span>
+                                <span class="profession">630150108</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <div class="container col-lg-3">
+                        <div class="swiper-wrapper content">
+                          <div class="swiper-slide card1">
+                            <div class="card-content1">
+                              <div class="image1 ">
+                                <img class="img-circle" src="../static/images/8.jpg" alt="" width="150px" height="150px">
+                              </div>
+                              <div class="name-profession">
+                                <span class="name">นาย อนุวัฒน์ นึกอุ่นจิตร์</span>
+                                <span class="profession">63015201</span>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="social-container">
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/NintendoSEA/">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.youtube.com/channel/UC8GOuhF_bDzPzv8968q8a4A">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename = 'js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'js/scripts.js ') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
